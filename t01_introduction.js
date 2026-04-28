@@ -2,7 +2,7 @@
 This is a block comment.
 Introduction to JavaScript
 ****************************/
-console.log("Running t01_introduction.js")
+console.log("Running t02_variables.js")
 console.log("Hello my name is Isla")
 
 //variables
