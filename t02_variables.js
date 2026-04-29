@@ -16,7 +16,7 @@ Main code
 ****************************/
 console.log("Hi"+ username)
 console.log("As of"+ year + "you are"+ age + "years old")
-console.log("You have"+ pocketmoney+ "dollars")
+console.log("You have" + pocketmoney + "dollars")
 /****************************
 Functions 
 ****************************/
