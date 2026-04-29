@@ -7,16 +7,16 @@ console.log("Running t02_variables.js")
 console.log("Hello my name is Isla")
 
 //variables
-let username = "Emma"
-var age = 13;
-var year = "2026"
-var pocketmoney = 20;
+let username = "Isla"
+let age = 15;
+let year = "2026"
+let pocketmoney = 20;
 /****************************
 Main code
 ****************************/
-
-
-
+console.log("Hi"+ username)
+console.log("As of"+ year + "you are"+ age + "years old")
+console.log("You have"+ pocketmoney+ "dollars")
 /****************************
 Functions 
 ****************************/
