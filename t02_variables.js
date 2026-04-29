@@ -7,6 +7,8 @@ console.log("Running t02_variables.js")
 console.log("Hello my name is Isla")
 
 //variables
+var name = "Emma"
+var age = 13;
 
 /****************************
 Main code
