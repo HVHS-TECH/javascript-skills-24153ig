@@ -19,7 +19,7 @@ console.log("Hi"+ username)
 console.log("As of"+ year + "you are"+ age + "years old")
 console.log("You have" + pocketmoney + "dollars")
 answer = year + 10
-console.log("In ten years you will be" + "add" +years old")
+console.log("In ten years you will be" + "answer" +years old")
 /****************************
 Functions 
 ****************************/
