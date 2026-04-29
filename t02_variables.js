@@ -9,7 +9,8 @@ console.log("Hello my name is Isla")
 //variables
 var name = "Emma"
 var age = 13;
-
+var year = "2026"
+var pocketmoney = 20;
 /****************************
 Main code
 ****************************/
