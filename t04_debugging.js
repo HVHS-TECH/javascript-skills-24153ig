@@ -1,4 +1,4 @@
-console.log("Task 4 - Debugging")
+console.log("t04_debugging.js")
 
 // calculate the area
 var area = length * width;
