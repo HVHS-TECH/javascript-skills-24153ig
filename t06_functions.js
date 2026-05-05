@@ -42,6 +42,9 @@ OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>
 Functions 
 ****************************/
 
+function welcome(){
+  OUTPUT.innerHTML += "<p>Less code matters</p>";
+}
 
 
 
