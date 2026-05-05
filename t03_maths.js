@@ -8,6 +8,7 @@ console.log("Hello my name is Isla")
 
 //variables
 
+let userName = "Isla"
 let age = 15;
 let year = "2026"
 let pocketMoney = 20;
