@@ -44,7 +44,7 @@ Functions
 function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
-(welcome)
+welcome()
 
 
 
