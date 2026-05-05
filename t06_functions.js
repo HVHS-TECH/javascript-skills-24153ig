@@ -43,8 +43,10 @@ Functions
 ****************************/
 
 function welcome(){
-  OUTPUT.innerHTML += "<p>Less code matters</p>";
+  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
+
+(welcome)
 
 
 
