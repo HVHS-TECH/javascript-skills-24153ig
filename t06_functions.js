@@ -3,7 +3,7 @@
 This is a block comment.
 Maths in JavaScript 
 ****************************/
-console.log("Running t05_JavaScript_and_HTML.js")
+console.log("Running t06_functions.js")
 console.log("Hello my name is Isla")
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
