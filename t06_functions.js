@@ -18,6 +18,17 @@ let num3 = 3;
 let Answer;
 
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+/****************************
+Functions 
+****************************/
+function welcome(){
+  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+}
+welcome()
+
+/****************************
+Main code
+****************************/
 OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + year + " you are "+ age + " years old</p>";
 
@@ -38,13 +49,8 @@ Answer = pocketMoney / num2 + num3
 console.log("Then you get $3, now you have " + Answer + " dollars" )
 OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>";
 
-/****************************
-Functions 
-****************************/
-function welcome(){
-  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
-}
-welcome()
+
+
 
 
 
