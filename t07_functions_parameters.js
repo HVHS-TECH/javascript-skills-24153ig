@@ -16,7 +16,6 @@ let Num1 = 10;
 let num2 = 2;
 let num3 = 3;
 let Answer;
-let 
 
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
@@ -51,7 +50,7 @@ function welcome(){
 }
 welcome()
 
-
+displayWelcome()
 
 
 
