@@ -18,6 +18,10 @@ let num3 = 3;
 let Answer;
 
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+function welcome(){
+  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+}
+(welcome)
 OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
 OUTPUT.innerHTML += "<p>As of " + year + " you are "+ age + " years old</p>";
 
@@ -42,11 +46,8 @@ OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>
 Functions 
 ****************************/
 
-function welcome(){
-  OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
-}
 
-(welcome)
+
 
 
 
