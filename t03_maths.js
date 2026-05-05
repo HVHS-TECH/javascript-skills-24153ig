@@ -7,7 +7,7 @@ console.log("Running t03_maths.js")
 console.log("Hello my name is Isla")
 
 //variables
-let userName = "Isla"
+
 let age = 15;
 let year = "2026"
 let pocketMoney = 20;
