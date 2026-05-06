@@ -50,10 +50,12 @@ function welcome(){
 }
 welcome()
 
-function displayWelcome(_name, _age){
-  OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-  OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
+function displayWelcome(_name, _price){
+  OUTPUT.innerHTML += "<p>"+_name+":"+" $"+_price+"</p>";
 }
+displayWelcome("Chocolate bar", 4);
+displayWelcome("Chips", 3);
+displayWelcome("Drink", 2.50);
 
 
 
