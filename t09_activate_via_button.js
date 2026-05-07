@@ -2,7 +2,7 @@
 /****************************
 This is a block comment.
 ****************************/
-console.log("Running t06_functions.js")
+console.log("Running t09_activate_via_button.js")
 console.log("Hello my name is Isla")
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
