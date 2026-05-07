@@ -18,6 +18,7 @@ let num2 = 2;
 let num3 = 3;
 let Answer;
 
+function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 /****************************
 Functions 
@@ -51,7 +52,7 @@ console.log("Then you get $3, now you have " + Answer + " dollars" )
 OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>";
 
 
-
+}
 
 
 
