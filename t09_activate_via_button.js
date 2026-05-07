@@ -7,6 +7,7 @@ console.log("Hello my name is Isla")
 
 const OUTPUT = document.getElementById("JavaScriptOutput");
 
+
 //variables
 let userName = "Isla"
 let age = 15;
