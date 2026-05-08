@@ -5,7 +5,7 @@ This is a block comment.
 console.log("Running t10_input_from_HTML.js")
 console.log("Hello my name is Isla")
 
-const OUTPUT = document.getElementById("JavaScriptOutput");
+const OUTPUT = document.getElementById("SpacefJavaScriptOutput");
 
 //variables
 let userName = "Isla"
