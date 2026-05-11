@@ -27,6 +27,10 @@ function welcome(){
 }
 welcome()
 
+function getFormInput(){
+  
+}
+
 /****************************
 Main code
 ****************************/
