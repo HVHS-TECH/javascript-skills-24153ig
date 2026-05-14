@@ -21,9 +21,9 @@ function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
-  const NAME_FIELD = document.getElementById("nameField");
   pocketMoney = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>You have "+pocketMoney+" dollars+</p>";
+  OUTPUT.innerHTML = "<p>You have "+pocketMoney+" dollars</p>";
+
 }
 
 function start(){
