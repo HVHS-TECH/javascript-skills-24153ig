@@ -24,6 +24,8 @@ function getFormInput(){
 
 }
 
+function 
+
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 /****************************
