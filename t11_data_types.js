@@ -21,10 +21,9 @@ function getFormInput(){
   const NAME_FIELD = document.getElementById("nameField");
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+  let pocketMoney 
 
 }
-
-function 
 
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
