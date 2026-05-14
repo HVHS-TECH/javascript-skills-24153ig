@@ -17,6 +17,13 @@ let num2 = 2;
 let num3 = 3;
 let Answer;
 
+function getFormInput(){
+  const NAME_FIELD = document.getElementById("nameField");
+  let userName = NAME_FIELD.value;
+  OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+
+}
+
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 /****************************
@@ -26,13 +33,6 @@ function welcome(){
   OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
 }
 welcome()
-
-function getFormInput(){
-  const NAME_FIELD = document.getElementById("nameField");
-  let userName = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
-
-}
 
 /****************************
 Main code
