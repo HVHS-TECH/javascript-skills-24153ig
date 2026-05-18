@@ -18,9 +18,9 @@ let num3 = 3;
 let Answer;
 
 function getFormInput(){
-  const NAME_FIELD = document.getElementById("nameField");
-  userName = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+  const AGE_FIELD = document.getElementById("ageField");
+  age = AGE_FIELD.value;
+  OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
   const MONEY_FIELD = document.getElementById("moneyField");
   pocketMoney = MONEY_FIELD.value;
   OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars</p>";
