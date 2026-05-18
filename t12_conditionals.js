@@ -64,7 +64,9 @@ OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>
 }
 
 if (pocketMoney<4) {
-    ""
+    "A chocolate bar costs $4
+
+        Sorry you CAN'T afford a chocolate bar" 
 }
 
 
