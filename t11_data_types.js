@@ -9,7 +9,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 //variables
 let userName = "Isla"
-let age = Number(AGE_FIELD.value);
+let age = 15;
 let year = "2026"
 let pocketMoney = 20;
 let Num1 = 10;
