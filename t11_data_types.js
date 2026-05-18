@@ -19,7 +19,7 @@ let Answer;
 
 function getFormInput(){
   const AGE_FIELD = document.getElementById("ageField");
-  age = AGE_FIELD.value;
+  age = Number(AGE_FIELD.value);
   OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
   const MONEY_FIELD = document.getElementById("moneyField");
   pocketMoney = MONEY_FIELD.value;

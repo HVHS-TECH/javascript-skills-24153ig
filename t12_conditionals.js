@@ -1,8 +1,7 @@
-/* Paste your code from the last task */
 /****************************
 This is a block comment.
 ****************************/
-console.log("Running t12_conditionals.js")
+console.log("Running t11_data_types.js")
 console.log("Hello my name is Isla")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
@@ -18,9 +17,9 @@ let num3 = 3;
 let Answer;
 
 function getFormInput(){
-  const NAME_FIELD = document.getElementById("nameField");
-  userName = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
+  const AGE_FIELD = document.getElementById("ageField");
+  age = Number(AGE_FIELD.value);
+  OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
   const MONEY_FIELD = document.getElementById("moneyField");
   pocketMoney = MONEY_FIELD.value;
   OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars</p>";
@@ -63,11 +62,6 @@ OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>
 
 }
 
-if (pocketMoney<4) {
-    "A chocolate bar costs $4
-
-        Sorry you CAN'T afford a chocolate bar" 
-}
 
 
 
