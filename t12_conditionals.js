@@ -58,13 +58,13 @@ OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + Answer +"
 Answer = pocketMoney / num2 + num3
 console.log("Then you get $3, now you have " + Answer + " dollars" )
 OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>";
-if(pocketMoney<4) {
-  console.log("A chocolate bar costs $4 Sorry you CAN'T afford a chocolate bar" )
-  OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you CAN'T afford a chocolate bar</p>";
+if (pocketMoney < 4) {
+console.log("A chocolate bar costs $4 Sorry you CAN'T afford a chocolate bar");
+OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you CAN'T afford a chocolate bar</p>";
 }
-else(pocketMoney>=4){
-  console.log("A chocolate bar costs $4 You CAN afford a chocolate bar")
-  OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You CAN afford a chocolate bar</p>";
+else {
+console.log("A chocolate bar costs $4 You CAN afford a chocolate bar");
+OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You CAN afford a chocolate bar</p>";
 }
 }
 
