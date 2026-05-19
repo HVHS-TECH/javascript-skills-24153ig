@@ -62,7 +62,9 @@ OUTPUT.innerHTML += "<p> Then you get $3, now you have " + Answer +" dollars</p>
 
 }
 
-if()
+if(pocketMoney<4) {
+  
+}
 
 
 
