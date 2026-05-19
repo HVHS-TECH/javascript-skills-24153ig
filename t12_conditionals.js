@@ -75,6 +75,5 @@ OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You CAN afford a chocolate bar<
 
 
 
-
 // This is a single line comment
 
