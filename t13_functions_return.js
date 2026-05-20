@@ -74,8 +74,8 @@ OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You CAN afford a chocolate bar<
 }
 
 function calculateChange(_price,_pocketMoney){
-let calculateChange = (_price - _pocketMoney)
-if (calculateChange >= 0) {
+let change = (_price - _pocketMoney)
+if (change >= 0) {
 console.log("You will get $" +change+ "change");
 OUTPUT.innerHTML += "<p>You will get $" +change+ "change</p>";
 }
