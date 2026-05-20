@@ -77,11 +77,7 @@ function calculateChange(_price,_pocketMoney){
 let change = (_pocketMoney - _price)
 if (change >= 0) {
 console.log("You will get $" +change+ "change");
-OUTPUT.innerHTML += "<p>You will get $" +change+ "change</p>";
-}
-else {
-console.log("You do not have enough money");
-OUTPUT.innerHTML += "<p>You do not have enough money</p>";
+OUTPUT.innerHTML += "<p>You will get $" +change+ " change</p>";
 }
 }
 calculateChange(price, pocketMoney);
