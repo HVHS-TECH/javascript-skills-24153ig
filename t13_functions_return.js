@@ -79,5 +79,10 @@ if (change >= 0) {
 console.log("You will get $" +change+ "change");
 OUTPUT.innerHTML += "<p>You will get $" +change+ "change</p>";
 }
+else {
+console.log("You do not have enough money");
+OUTPUT.innerHTML += "<p>You do not have enough money</p>";
 }
+}
+calculateChange(price, pocketMoney);
 }
