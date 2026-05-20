@@ -18,7 +18,7 @@
 <body>
   <h1>T14-arrays part 1</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
-
+  <button onClick="start()">START</button>
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
   <div id="spaceForJavaScriptOutput">
@@ -26,6 +26,15 @@
     The output of your script will go here.
 
   </div>
+
+  <form onsubmit="return false;">
+  <label for="formName">Age:</label>
+  <input type="text" id="ageField" name="formName">
+  <p></p>
+  <label for="formName">Pocket money:</label>
+  <input type="text" id="moneyField" name="formName">
+  <input type="submit" onClick=getFormInput()>
+  </form>
 
 
   <script src="../t14_arrays_1.js"></script>
