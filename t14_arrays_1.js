@@ -82,5 +82,5 @@ OUTPUT.innerHTML += "<p>You will get $" +change+ " change</p>";
 }
 calculateChange(price, pocketMoney);
 
-let
+let choiceArray = []
 }
