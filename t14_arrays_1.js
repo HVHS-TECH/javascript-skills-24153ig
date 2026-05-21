@@ -82,5 +82,7 @@ OUTPUT.innerHTML += "<p>You will get $" +change+ " change</p>";
 }
 calculateChange(price, pocketMoney);
 
-let choiceArray = []
+let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
+let choice = CHOOSE_FIELD.value;
+OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
 }
