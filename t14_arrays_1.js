@@ -24,7 +24,10 @@ function getFormInput(){
   const MONEY_FIELD = document.getElementById("moneyField");
   pocketMoney = Number (MONEY_FIELD.value);
   OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars</p>";
-
+  const CHOOSE_FIELD = document.getElementById("chooseField");
+  let choice = CHOOSE_FIELD.value;
+  OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
+  let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
 }
 
 function start(){
@@ -82,7 +85,5 @@ OUTPUT.innerHTML += "<p>You will get $" +change+ " change</p>";
 }
 calculateChange(price, pocketMoney);
 
-let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
-let choice = CHOOSE_FIELD.value;
-OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
+
 }
