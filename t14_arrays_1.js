@@ -23,7 +23,7 @@ function getFormInput(){
   OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
   const MONEY_FIELD = document.getElementById("moneyField");
   pocketMoney = Number (MONEY_FIELD.value);
-  OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars</p>";
+  OUTPUT.innerHTML += "You have "+pocketMoney+" dollars</p>";
   const CHOOSE_FIELD = document.getElementById("chooseField");
   let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
   let choice = CHOOSE_FIELD.value;
