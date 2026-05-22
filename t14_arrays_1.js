@@ -25,9 +25,9 @@ function getFormInput(){
   pocketMoney = Number (MONEY_FIELD.value);
   OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars</p>";
   const CHOOSE_FIELD = document.getElementById("chooseField");
+  let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
   let choice = CHOOSE_FIELD.value;
   OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
-  let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
 }
 
 function start(){
