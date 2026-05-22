@@ -1,1 +1,22 @@
-/* Paste your code from the last task */
+/****************************
+This is a block comment.
+Introduction to JavaScript
+****************************/
+console.log("Running t01_introduction.js")
+console.log("Hello my name is Isla")
+
+//variables
+
+/****************************
+Main code
+****************************/
+
+
+
+/****************************
+Functions 
+****************************/
+
+
+// This is a single line comment
+
