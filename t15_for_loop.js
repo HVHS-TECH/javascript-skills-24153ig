@@ -12,7 +12,7 @@ Main code
 ****************************/
 for (let i = 100; i>=0; i--){
 console.log(i + "bottles of milk on the wall, ")
-console
+console.log()
 
 }
 
