@@ -11,7 +11,9 @@ console.log("Starting Loop")
 Main code
 ****************************/
 for (let i = 100; i>=0; i--){
-console.log()
+console.log(i + "bottles of milk on the wall, ")
+console
+
 }
 
 
