@@ -13,7 +13,6 @@ Main code
 
 
 for (let i = 100; i>=0; i--){
-const  = document.getElementById("spaceForJavaScriptOutput");
 console.log(i + "bottles of milk on the wall, ")
 OUTPUT.innerHTML = "<p>"+i+" bottles of milk on the wall</p>";
 console.log(i + "bottles of milk;")
