@@ -12,18 +12,18 @@ Main code
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+function song(){
 for (let i = 100; i>=1; i--){
 console.log(i + " bottles of milk on the wall, ")
 console.log(i + " bottles of milk;")
 console.log("If one of those bottles should happen to fall.." )
 console.log(i - 1 + " bottles of milk on the wall!")
-let number = i - 1
 OUTPUT.innerHTML = "<p>"+i+" bottles of milk on the wall</p>";
 OUTPUT.innerHTML = "<p>"+i+" bottles of milk</p>";
 OUTPUT.innerHTML = "<p> If one of those bottles should happen to fall..</p>";
-OUTPUT.innerHTML = "<p>"+number+" bottles of milk on the wall</p>";
 }
-
+}
+song()
 
 
 
