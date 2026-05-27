@@ -16,6 +16,7 @@ let num2 = 2;
 let num3 = 3;
 let Answer;
 let price = 4;
+let shoppingList
 
 function getFormInput(){
   const AGE_FIELD = document.getElementById("ageField");
