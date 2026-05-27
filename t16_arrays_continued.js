@@ -28,6 +28,8 @@ function getFormInput(){
   let chocolateArray = ["You loath chocolate" , "Chocolate is meh" , "Chocolate is pretty good" , "Chocolate is the best thing EVER!!!!"]
   let choice = CHOOSE_FIELD.value;
   OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
+  const SHOPPING_LIST = document.getElementById("shoppingListField");
+  
 }
 
 function start(){
