@@ -18,7 +18,7 @@
 <body>
   <h1>T16-arrays continued</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
-
+  <button onClick="start()">START</button>
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
   <div id="spaceForJavaScriptOutput">
@@ -26,6 +26,20 @@
     The output of your script will go here.
 
   </div>
+
+  <form onsubmit="return false;">
+  <label for="formName">Age:</label>
+  <input type="text" id="ageField" name="formName">
+  <p></p>
+  <label for="formName">Pocket money:</label>
+  <input type="text" id="moneyField" name="formName">
+  <p></p>
+  <label for="formName">On a scale of 0-3 how much do you like chocolate:</label>
+  <input type="text" id="chooseField" name="formName">
+  <label for="formName">Shopping list:</label>
+  <input type="text" id="chooseField" name="formName">
+  <input type="submit" onClick=getFormInput()>
+  </form>
 
 
   <script src="../t16_arrays_continued.js"></script>
