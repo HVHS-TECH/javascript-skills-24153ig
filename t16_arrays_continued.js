@@ -29,7 +29,11 @@ function getFormInput(){
   let choice = CHOOSE_FIELD.value;
   OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
   const SHOPPING_LIST = document.getElementById("shoppingListField");
-  
+
+}
+
+function getFormInput(){
+    
 }
 
 function start(){
