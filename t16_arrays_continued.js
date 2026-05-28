@@ -32,7 +32,6 @@ function getFormInput(){
   OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
 
 }
-getFormInput()
 
 function getFormInput2(){
   const LIST_FIELD = document.getElementById("listField");
@@ -41,7 +40,6 @@ function getFormInput2(){
   OUTPUT.innerHTML = "You have added "+shoppingListArray[item] +"to the list";
 }
 
-//getFormInput2()
 
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
