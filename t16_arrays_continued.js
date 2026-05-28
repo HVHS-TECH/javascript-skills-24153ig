@@ -32,7 +32,7 @@ function getFormInput(){
 
 }
 
-function getFormInput(){
+function getFormInput2(){
   const LIST_FIELD = document.getElementById("listField");
   let shoppingListArray = []
   let item = LIST_FIELD.value;
