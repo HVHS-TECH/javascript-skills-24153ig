@@ -36,7 +36,7 @@ function getFormInput2(){
   const LIST_FIELD = document.getElementById("listField");
   let shoppingListArray = []
   let item = LIST_FIELD.value;
-  OUTPUT.innerHTML = shoppingListArray[item];
+  OUTPUT.innerHTML += "shoppingListArray[item];
 }
 
 function start(){
