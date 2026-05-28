@@ -37,7 +37,6 @@ function getFormInput2(){
   let item = LIST_FIELD.value;
   OUTPUT.innerHTML += shoppingListArray[item];
 }
-getFormInput2()
 
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
