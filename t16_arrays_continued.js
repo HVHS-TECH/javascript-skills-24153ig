@@ -40,7 +40,7 @@ function getFormInput2(){
   OUTPUT.innerHTML = shoppingListArray[item];
 }
 
-getFormInput2()
+//getFormInput2()
 
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
