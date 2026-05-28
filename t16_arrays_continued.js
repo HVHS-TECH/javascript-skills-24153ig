@@ -32,12 +32,15 @@ function getFormInput(){
   OUTPUT.innerHTML = "You chose: "+chocolateArray[choice]+"<br>";
 
 }
+getFormInput()
 
 function getFormInput2(){
   const LIST_FIELD = document.getElementById("listField");
   let item = LIST_FIELD.value;
   OUTPUT.innerHTML = shoppingListArray[item];
 }
+
+getFormInput2()
 
 function start(){
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
