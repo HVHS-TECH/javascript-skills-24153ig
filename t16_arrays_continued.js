@@ -16,6 +16,8 @@ let num2 = 2;
 let num3 = 3;
 let Answer;
 let price = 4;
+let shoppingListArray = []
+
 
 function getFormInput(){
   const AGE_FIELD = document.getElementById("ageField");
@@ -33,7 +35,6 @@ function getFormInput(){
 
 function getFormInput2(){
   const LIST_FIELD = document.getElementById("listField");
-  let shoppingListArray = []
   let item = LIST_FIELD.value;
   OUTPUT.innerHTML += shoppingListArray[item];
 }
