@@ -33,12 +33,13 @@ function getFormInput(){
 
 }
 
-function getFormInput2(){
-  const LIST_FIELD = document.getElementById("listField");
-  let item = LIST_FIELD.value;
-  shoppingListArray.push("item")
-  OUTPUT.innerHTML = "You have added "+shoppingListArray[item] +"to the list";
+function getFormInput2(){ 
+  const LIST_FIELD = document.getElementById("listField"); 
+  let item = LIST_FIELD.value; 
+  shoppingListArray.push(item); 
+  OUTPUT.innerHTML = "You have added " + item + " to the list"; 
 }
+
 
 
 function start(){
