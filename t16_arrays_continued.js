@@ -101,3 +101,7 @@ calculateChange(price, pocketMoney);
 
 
 }
+
+function itemsOnList(){
+  
+}
