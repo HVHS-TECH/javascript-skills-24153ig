@@ -113,7 +113,3 @@ calculateChange(price, pocketMoney);
 
 
 }
-
-function itemsOnList(){
-OUTPUT.innerHTML += "<p> " + shoppingListArray+ "</p>";
-}
