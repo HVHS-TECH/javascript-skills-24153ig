@@ -42,12 +42,11 @@ function getFormInput2(){
 }
 
 function itemsOnList() {
-
-OUTPUT.innerHTML =
-"<p>These are the items on your shopping list:</p>";
+OUTPUT.innerHTML = "<p>These are the items on your shopping list:</p>";
 for (let i = 0; i < shoppingListArray.length; i++) {
-OUTPUT.innerHTML += "<p>" + shoppingListArray[i] + "</p>";
+OUTPUT.innerHTML += shoppingListArray[i] + "<br>";
 }
+
 }
 
 
