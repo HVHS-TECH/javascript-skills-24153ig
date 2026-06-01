@@ -38,6 +38,7 @@ function getFormInput2(){
   let item = LIST_FIELD.value; 
   shoppingListArray.push(item); 
   OUTPUT.innerHTML = "You have added " + item + " to the list"; 
+  LIST_FIELD.value = "";
 }
 
 function itemsOnList() {
