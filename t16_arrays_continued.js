@@ -40,6 +40,16 @@ function getFormInput2(){
   OUTPUT.innerHTML = "You have added " + item + " to the list"; 
 }
 
+function itemsOnList() {
+
+  OUTPUT.innerHTML = "<p>These are the items on your shopping list:</p>";
+
+  for (let i = 0; i < shoppingListArray.length; i++) {
+    OUTPUT.innerHTML += "<p>" + shoppingListArray[i] + "</p>";
+  }
+
+}
+
 
 
 function start(){
