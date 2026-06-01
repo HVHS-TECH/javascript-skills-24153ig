@@ -42,6 +42,7 @@ function getFormInput2(){
 }
 
 function itemsOnList() {
+console.log("itemsOnList is running");
 OUTPUT.innerHTML = "<p>These are the items on your shopping list:</p>";
 for (let i = 0; i < shoppingListArray.length; i++) {
 OUTPUT.innerHTML += shoppingListArray[i] + "<br>";
