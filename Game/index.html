@@ -207,11 +207,14 @@
 
     const GAME_WIDTH = 430;
     const GAME_HEIGHT = 640;
-    const GRAVITY = 0.35;
-    const FLAP_FORCE = -5.8;
+    const GROUND_HEIGHT = 96;
+    const BIRD_WIDTH = 42;
+    const BIRD_HEIGHT = 30;
+    const GRAVITY = 0.22;
+    const FLAP_FORCE = -6.8;
     const PIPE_WIDTH = 70;
-    const PIPE_GAP = 160;
-    const PIPE_SPEED = 2.6;
+    const PIPE_GAP = 180;
+    const PIPE_SPEED = 3.2;
 
     let birdY = 220;
     let birdVelocity = 0;
@@ -272,7 +275,7 @@
       const minTop = 80;
       const maxTop = GAME_HEIGHT - 160 - 110;
       const topHeight = Math.floor(minTop + Math.random() * (maxTop - minTop));
-      const bottomHeight = GAME_HEIGHT - 96 - topHeight - PIPE_GAP;
+      const bottomHeight = GAME_HEIGHT - GROUND_HEIGHT - topHeight - PIPE_GAP;
 
       const topPipe = document.createElement('div');
       topPipe.className = 'pipe top';
@@ -298,7 +301,7 @@
         pair.bottomPipe.style.left = `${nextLeft}px`;
 
         const birdLeft = 80;
-        const birdRight = 80 + 42;
+        const birdRight = 80 + BIRD_WIDTH;
         const pipeRight = nextLeft + PIPE_WIDTH;
         const pipeLeft = nextLeft;
 
@@ -306,15 +309,15 @@
         const bottomRect = {
           left: pipeLeft,
           right: pipeRight,
-          top: GAME_HEIGHT - 96 - parseFloat(pair.bottomPipe.style.height),
-          bottom: GAME_HEIGHT - 96
+          top: GAME_HEIGHT - GROUND_HEIGHT - parseFloat(pair.bottomPipe.style.height),
+          bottom: GAME_HEIGHT - GROUND_HEIGHT
         };
 
         const birdRect = {
           left: birdLeft,
           right: birdRight,
           top: birdY,
-          bottom: birdY + 30
+          bottom: birdY + BIRD_HEIGHT
         };
 
         if (!pair.passed && birdRect.left > pipeRight) {
@@ -369,7 +372,7 @@
       birdVelocity += GRAVITY;
       birdY += birdVelocity;
 
-      if (birdY <= 0 || birdY + 30 >= GAME_HEIGHT - 96) {
+      if (birdY <= 0 || birdY + BIRD_HEIGHT >= GAME_HEIGHT - GROUND_HEIGHT) {
         endGame();
         return;
       }
@@ -394,12 +397,12 @@
     restartBtn.addEventListener('click', () => {
       clearPipes();
       resetGame();
-      running = false;
+      running = true;
       gameOver = false;
-      overlay.style.display = 'grid';
-      statusText.textContent = 'Press Space to Start';
-      scoreText.textContent = 'Score: 0';
-      bestText.textContent = `Highest Score: ${bestScore}`;
+      birdVelocity = FLAP_FORCE;
+      updateBird();
+      overlay.style.display = 'none';
+      frameId = requestAnimationFrame(tick);
     });
 
     resetGame();
